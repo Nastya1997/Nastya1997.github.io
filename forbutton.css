@@ -194,7 +194,7 @@ padding: 30px 50px;
 font-family: 'Lato', sans-serif;
 }
 blockquote p {
-margin-top: 0;
+margin-top: auto;
 font-size: 22px;
 line-height: 1.25;
 }
