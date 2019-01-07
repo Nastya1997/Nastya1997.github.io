@@ -84,6 +84,7 @@ a.button:active { background: white; }
 	position: relative;
 	top: 70px;
 	left: 395px;
+    text-align: center;
    }
    IMG.block2 { 
     display: block;
