@@ -1,0 +1,35 @@
+<html>
+<head>
+   <link rel="stylesheet" href="forbutton.css">
+   <meta charset="UTF-8">
+  </head>
+<body bgcolor="#d9d9d9">
+<ul class="menu-main">
+  <li><a href="index.html" class="current">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="tutorial.html">Tutorial</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+<center>
+<br>
+<br>
+<br>
+<br>
+<h1> Learn photoshop</h1>
+<div id="text"></div>
+<input type="button" value="Подробнее" onClick=output();>
+<script type="text/javascript">
+function output()
+{
+	arrimg=new Array();
+	arrimg[0]=new Image();
+	arrimg[0].src="145.jpg";
+	var theText = document.getElementById("text");
+	theText.innerHTML = "Изучение Photoshop важно,как в личных интересах, так и в коммерческих масштабах. <br>Навыки работы в Photoshop пригодятся и для хобби: обработка фотографий до сих пор актуальна. <br><br>На этом сайте Вы научитесь применять фильтры к фотографиям и накладывать эффекты на фото. <br><br>";
+	theText.appendChild(arrimg[0]);
+	button.innerText.value = "Скрыть";
+}
+</script>
+</center>
+</body>
+</html>

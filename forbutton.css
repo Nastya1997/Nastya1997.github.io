@@ -1,0 +1,184 @@
+H1
+{
+	font-size:200%;
+	font-family:Gill Sans, sans-serif; 
+	color: #feb386;
+	text-shadow: 1px 1px 2px black, 0 0 1em white;
+	
+}
+input {
+  display: inline-block;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  
+  padding: .5em 2em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+} 
+a.button:hover { background: rgba(255,255,255,.2); }
+a.button:active { background: white; }
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu-main {
+  list-style: none;
+  margin: 40px 0 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+  background: white;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: #606060;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: #9d999d;}
+.menu-main a.current, .menu-main a:hover{color: #feb386;}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #feb386;
+  transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px; 
+  margin: 0 30px;
+}
+}
+  .block1 { 
+    width: 200px; 
+	height: 200px;
+    background: #ccc;
+    padding: 50px;
+    padding-right: 20px; 
+    border: dotted 1px black;  
+    float: left;
+	position: relative;
+	top: 70px;
+	left: 395px;
+   }
+   IMG.block2 { 
+    display: block;
+
+	margin-left: auto;
+	margin-right: auto;
+    width: 200px; 
+	height: 200px;
+    background: #feb386; 
+    padding: 50px; 
+    border: dotted 1px black; 
+    float: left; 
+    position: relative; 
+    top: 70px; 
+    left: 395px; 
+   }
+	
+.holder{
+    position:relative;   
+    width:350px;
+    height:300px;
+    background: no-repeat;
+	background-size:cover;
+	
+     margin:0 auto;
+	  border: 1px solid #c4c4c4; /* Рамка всего блока. Стоит ширина 1px, solid - непрерывная, #c4c4c4 - это ее цвет. Если рамка не нужна - просто удалите эту строку */
+    margin: 10px 0 0px 0; /* Внешний отступ всего блока с тизерами от контента страницы. Стоит сверху и снизу по 10px, а слева и справа 0px */
+    padding: 10px 5px 5px 5px;
+	
+	
+}
+.block{
+	
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(255,255,255, 0.7);
+    padding:5px;
+    display:none;
+	
+}
+.holder:hover .block{
+    display:block;
+}
+
+.content{
+	position:relative;
+	 top: 10%;
+  transform: translateY(-10%);
+	width:360px;
+	height:50px;
+	 margin:10 auto;
+	border: 1px solid #828282;
+	
+}
+.staties{
+	font-family:"Comic Sans MC", sans-serif;
+	font-size:large;
+}
+
+.box {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+.image-box {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 10px;
+  background: #EBE7DD;
+}
+IMG.circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.details {
+  background: #EBE7DD;
+  margin-top: -70px;
+  padding: 70px 30px 30px;
+  border-radius: 5px;
+}
+.details h3 {
+  font-family: 'Ledger', serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 24px;
+  color: #281F19;
+}
+.details p {
+  font-family: 'Ledger', serif;
+  color: #4C3D35;
+  line-height: 24px;
+}
