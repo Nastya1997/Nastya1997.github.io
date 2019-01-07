@@ -184,7 +184,7 @@ IMG.circle {
   line-height: 24px;
 }
 blockquote {
-margin: 500 px auto;
+margin: 5000px auto;
 background: white;
 border: 15px solid  #feb386;
 border-radius: 8px;
@@ -194,7 +194,7 @@ padding: 30px 50px;
 font-family: 'Lato', sans-serif;
 }
 blockquote p {
-margin-top: 50px auto;
+margin-top: 0;
 font-size: 22px;
 line-height: 1.25;
 }
