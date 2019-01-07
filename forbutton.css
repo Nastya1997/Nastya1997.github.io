@@ -78,7 +78,6 @@ a.button:active { background: white; }
 	height: 200px;
     background: #EBE7DD;
     padding: 50px;
-    padding-right: 10px; 
     border: dotted 1px black;  
     float: left;
 	position: relative;
