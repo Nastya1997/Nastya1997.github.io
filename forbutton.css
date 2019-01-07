@@ -198,7 +198,9 @@ margin-top: auto;
 font-size: 22px;
 line-height: 1.25;
 }
-
+blockquote span {
+position: relative;
+}
 blockquote span:before {
 content: "\201C";
 font-family: serif;
