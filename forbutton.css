@@ -200,7 +200,7 @@ line-height: 1.25;
 }
 blockquote span {
 background:  #feb386;
-box-shadow: -20px 0 #FDE640, 20px 0  #feb386;
+box-shadow: -20px 0  #feb386, 20px 0  #feb386;
 position: relative;
 }
 blockquote span:before {
