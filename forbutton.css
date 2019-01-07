@@ -186,7 +186,7 @@ IMG.circle {
 blockquote {
 margin: 0;
 background: white;
-border: 15px solid #EBE7DD;
+border: 15px solid  #feb386;
 border-radius: 8px;
 text-align: center;
 color: #58554B;
@@ -199,8 +199,8 @@ font-size: 22px;
 line-height: 1.25;
 }
 blockquote span {
-background: #EBE7DD;
-box-shadow: -20px 0 #FDE640, 20px 0 #EBE7DD;
+background:  #feb386;
+box-shadow: -20px 0 #FDE640, 20px 0  #feb386;
 position: relative;
 }
 blockquote span:before {
